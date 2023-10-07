@@ -16,19 +16,6 @@ We used long short time(LSTM). Because LSTM sequence of features. Our project ma
 
 
 
-Diagram- After Imputation
-
-
-
-Diagram- Before Imputation
-
-
-
-Diagram: KNN Method for missing value imputation
-
-
-
-Diagram: Regression and Classification
 
 What do you hope to achieve?
 
@@ -40,7 +27,7 @@ Also, in terms of predicting geomagnetic storms, we are getting 86% accuracy.
 
 
 
-Additionally, we have designed a mobile application to forecast geomagnetic storms and other vice versa space weather events. We ant to collect NASA/NOAA API and according value of space weather events. Our app will send precautions and warning through SMS, and social media.
+Additionally, we have designed a mobile application to forecast geomagnetic storms and other vice versa space weather events. We o collect NASA/NOAA API and according value of space weather events. Our app will send precautions and warning through SMS, and social media.
 
 
 
@@ -49,4 +36,7 @@ Tools, Hardware: Google Colab , Acer E 14 (Ram -4GB, Rom -1TB)
 Language: Python for machine learning
 
 React JS for WebApp
+
+ To view our app please click https://www.figma.com/file/fsImtHVjzrHHagYeRE68En/team-recursion?type=design&node-id=209%3A208&mode=design&t=GfXwzQAhZrf7aJRV-1
+ For Web Application https://geomag-gaurd.vercel.app/
 
