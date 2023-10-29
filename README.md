@@ -6,13 +6,14 @@ So, we collected data(plasma dataset) and then we follow 3 steps:
 
 Data Cleaning: We removed columns that don’t have values more than 80%.
 Missing value plotting we visualise it after and before cleaning for better understanding.
-Imputation: As we see, the value of every row’s deviation is not high. We applied a basic model and median for the rest of the data we applied KNN. The first steps will remove noise and distortions from the dataset. Then we calculated speed, density, and temperature from corrected spectral data.
+Imputation: As we see, the value of every row’s deviation is not high. We applied a basic model and median for the rest of the data we applied Mean imputation ,Mode imputation ,Median Imputation and  KNN. The first steps will remove noise and distortions from the dataset. Then we calculated speed, density, and temperature from corrected spectral data.
 Then we aligned the Kp-Index column to the dataset. IMF speed, density as input, and Kp will be our model’s output.
 
 
 How does it work?
 
 We used long short time(LSTM). Because LSTM sequence of features. Our project makes use of sequence models to catch magnetic and proton behavior through the time period.
+We also applied GRU Model and got better accuracy than LSTM. Which is almost 83%.  
 
 
 
