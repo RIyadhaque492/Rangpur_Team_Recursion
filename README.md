@@ -20,7 +20,7 @@ We also applied GRU Model and got better accuracy than LSTM. Which is almost 83%
 
 What do you hope to achieve?
 
-Our project has great results in a reduction of noise, and distortions from datasets of DSCOVR. Which is almost 85% accurate. We are getting Total RMSE 13.51%
+Our project has great results in a reduction of noise, and distortions from datasets of DSCOVR. Which is almost 85% accurate. We are getting Total RMSE 13.51% and by mode imputation and GRU model we got a good accuracy of Kp
 
 
 
