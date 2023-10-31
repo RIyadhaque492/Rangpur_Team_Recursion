@@ -5,9 +5,9 @@ As we know DSCOVR occasionally behaves quirky, which isn’t a good sign for us.
 So, we collected data(plasma dataset) and then we follow 3 steps:
 
 Data Cleaning: We removed columns that don’t have values more than 80%.
-Missing value plotting we visualise it after and before cleaning for better understanding.
-Imputation: As we see, the value of every row’s deviation is not high. We applied a basic model and median for the rest of the data we applied Mean imputation ,Mode imputation ,Median Imputation and  KNN. The first steps will remove noise and distortions from the dataset. Then we calculated speed, density, and temperature from corrected spectral data.
-Then we aligned the Kp-Index column to the dataset. IMF speed, density as input, and Kp will be our model’s output.
+By Missing value plotting we visualise it after and before cleaning for better understanding.
+Imputation: As we see, the value of every row’s deviation is not high. We applied a basic ffill, fill and then we applied Mean imputation ,Mode imputation ,Median Imputation and  KNN. The first steps will remove noise and distortions from the dataset. Then we calculated speed, density, and temperature from corrected spectral data.
+Then we aligned the Kp-Index column to the dataset. IMF(Bz),speed,temperature & density as input, and Kp will be our model’s output.
 
 
 How does it work?
@@ -20,11 +20,11 @@ We also applied GRU Model and got better accuracy than LSTM. Which is almost 83%
 
 What do you hope to achieve?
 
-Our project has great results in a reduction of noise, and distortions from datasets of DSCOVR. Which is almost 85% accurate. We are getting Total RMSE 13.51% and by mode imputation and GRU model we got a good accuracy of Kp
+Our project has great results in a reduction of noise, and distortions from datasets of DSCOVR. Which is almost 83% accurate. We are getting Total RMSE 13.51% and by mode imputation and GRU model we got a good accuracy of Kp.
 
 
 
-Also, in terms of predicting geomagnetic storms, we are getting 86% accuracy.
+Also, in terms of predicting geomagnetic storms, we are getting 83.48% accuracy.
 
 
 
